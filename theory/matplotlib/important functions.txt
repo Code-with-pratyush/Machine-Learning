@@ -1,0 +1,11 @@
+plt.gray()
+
+This line of code is used in Matplotlib to set the color map of a plot to grayscale. The gray() function is part of Matplotlib's pyplot module, and when you call it, it changes the color map of the current plot to shades of gray
+
+plt.matshow()
+Input Data: You provide a 2D array or matrix to plt.matshow(). This array represents the data you want to visualize.
+
+Color Mapping: Matplotlib automatically assigns colors to the values in your array based on a predefined color map. The color map determines how the values in the array are mapped to colors in the plot. Matplotlib provides various color maps, such as 'viridis', 'coolwarm', 'gray', etc., each of which has a different mapping of values to colors.
+
+Display: plt.matshow() then displays the array as a grid of colored cells, where each cell represents a value in the array. The color of each cell corresponds to the value it represents in the array, according to the chosen color map.
+

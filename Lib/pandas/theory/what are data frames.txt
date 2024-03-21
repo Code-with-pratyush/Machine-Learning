@@ -1,0 +1,24 @@
+What is a DataFrame in Pandas?
+
+In simple terms, a DataFrame in Pandas is like a table with rows and columns, just like an Excel spreadsheet or a SQL database table. It's a way to organize data in a structured manner.
+
+import pandas as pd
+
+# Create a dictionary with the data
+data = {
+    'Name': ['Alice', 'Bob', 'Charlie', 'David'],
+    'Age': [25, 30, 35, 40],
+    'Height': [160, 175, 170, 180]
+}
+
+# Create a DataFrame from the dictionary
+df = pd.DataFrame(data)
+
+# Display the DataFrame
+print(df)
+
+      Name  Age  Height
+0    Alice   25     160
+1      Bob   30     175
+2  Charlie   35     170
+3    David   40     180

@@ -1,0 +1,7 @@
+from sklearn.datasets import load_digits
+
+sklearn: This stands for Scikit-learn, which is a popular library in Python used for machine learning tasks.
+
+datasets: This part of Scikit-learn deals with various datasets that are commonly used for practicing and learning machine learning algorithms.
+
+load_digits: This is a specific function within the datasets module. When you call load_digits(), it loads a dataset called "digits," which is a collection of handwritten digits from 0 to 9.

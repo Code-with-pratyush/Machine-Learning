@@ -1,0 +1,12 @@
+How to open jupyter notebook
+
+Go to Anaconda prompt
+
+conda list 
+It will display all the packages of Anaconda distribution
+
+conda info 
+It will tells the details of installation
+
+jupyter notebook
+Run the jupyter notebook into the browser

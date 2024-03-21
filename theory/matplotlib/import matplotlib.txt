@@ -1,0 +1,12 @@
+What is Matplotlib?
+Matplotlib is a library in Python that helps you create various types of plots and visualizations. These plots can include line plots, scatter plots, bar charts, histograms, and more.
+Why is it used?
+Matplotlib is used to visually represent data in a clear and understandable way. It's helpful for analyzing data, identifying patterns, and communicating findings to others.
+
+
+How to use Matplotlib:
+
+First, you import the library using import matplotlib.pyplot as plt.
+Then, you can use various functions like plt.plot(), plt.scatter(), plt.bar(), etc., to create different types of plots.
+You can customize your plot by adding labels, titles, legends, changing colors, adjusting axis limits, and more using additional functions like plt.xlabel(), plt.ylabel(), plt.title(), plt.legend(), etc.
+Finally, you use plt.show() to display the plot on your screen.

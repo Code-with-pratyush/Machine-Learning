@@ -1,0 +1,27 @@
+A confusion matrix is a table that is often used to evaluate the performance of a classification model in machine learning. It allows us to understand how well the model is performing in terms of making predictions about different classes.
+
+Components of a Confusion Matrix:
+
+A confusion matrix consists of four main components:
+
+True Positives (TP): These are the cases where the model predicted the class correctly and the actual class is also the same.
+
+True Negatives (TN): These are the cases where the model predicted a negative outcome correctly, and the actual class is also negative.
+
+False Positives (FP): These are the cases where the model predicted a positive outcome, but the actual class is negative. This is also known as a Type I error.
+
+False Negatives (FN): These are the cases where the model predicted a negative outcome, but the actual class is positive. This is also known as a Type II error.
+
+
+Installation:
+y_predicted = model.predict(X_test);
+from sklearn.metrics import confusion_matrix
+
+cm =  confusion_matrix(y_test,y_predicted)
+cm
+
+from sklearn.metrics import confusion_matrix: This line of code imports the confusion_matrix function from the sklearn.metrics module. confusion_matrix is a function provided by scikit-learn (a popular machine learning library in Python) that computes the confusion matrix based on the true labels and predicted labels.
+
+confusion_matrix(y_test, y_predicted): This line of code computes the confusion matrix based on the true labels (y_test) and the predicted labels (y_predicted). The confusion_matrix function compares the true labels with the predicted labels and calculates the counts of true positive, false positive, true negative, and false negative predictions.
+
+: The resulting confusion matrix is stored in the variable cm. It is a 2D array where the rows represent the actual classes (true labels) and the columns represent the predicted classes (predicted labels).
